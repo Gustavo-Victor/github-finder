@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-    <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge"/>
+    ✔ Projeto concluído
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 
 Este projeto é uma aplicação React simples que serve para buscar por usuários do Github e retornar dados deles e de seus repositórios. O projeto foi baseado em um tutorial do youtube do canal Hora de Codar, porém fiz algumas modificações que achei necessário para tornar o projeto mais único.  
 
-Clique [aqui]() para conferir como ficou o projeto no [Codesandbox](https://codesandbox.io).
+Clique [aqui](https://ji5y77-5173.csb.app/) para conferir como ficou o projeto no [Codesandbox](https://codesandbox.io).
 
 
 ## 📷 Prints
