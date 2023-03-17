@@ -1,0 +1,30 @@
+@import "../../styles/partials/variables";
+
+.repos h2 {
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.repos_container {
+  background-color: $dark-blue;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+@media screen and (max-width: 440px){ 
+  .repos_container {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 350px){ 
+  .repos h2 { 
+    font-size: 1rem;
+  }
+} 

@@ -1,0 +1,67 @@
+@import "../../styles/partials/variables";
+
+.search_div {
+  padding: 2rem;
+  background-color: $dark-blue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search_div p {
+  color: $light-purple;
+  margin: 0.7rem 0;
+}
+
+.search_div .form_group {
+  width: auto;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_div .form_group input,
+.search_div .form_group button {
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: $dark-blue;
+}
+
+.search_div .form_group input {
+  padding: 10px;
+  box-shadow: 0 0 3px 0 rgba(75, 75, 75, 0.7);
+  border-radius: 6px 0 0 6px;
+  width: auto;
+  max-width: 80%;
+}
+
+.search_div .form_group button {
+  border-radius: 0 6px 6px 0;
+  padding: 10px;
+  background-color: $body-bg-color;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.search_div .form_group button:hover {
+  background-color: $dark-color;
+}
+
+/*
+@media only screen and (max-width: 300px) {
+  .search_div .form_group button {
+    display: none;
+  }
+
+  .search_div .form_group input {
+    border-radius: 0.6rem;
+  }
+}
+*/

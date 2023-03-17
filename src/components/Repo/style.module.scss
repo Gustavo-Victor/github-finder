@@ -1,0 +1,68 @@
+@import "../../styles/partials/variables";
+
+.repo {
+  background-color: $body-bg-color;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 2px solid $light-purple;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 0 50%;
+  width: auto; 
+  max-width: 100%; 
+
+  .stats {
+    display: flex;
+    gap: 1rem;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      border-radius: 3px;
+      border: 1px solid $light-purple;
+      padding-right: 0.4rem;
+    }
+
+    svg {
+      background-color: $medium-blue;
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+      font-size: 2rem;
+    }
+  }
+  .repo_btn {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: $light-blue;
+    background-color: $dark-blue;
+    border-radius: 5px;
+    gap: 0.5rem;
+  }
+}
+
+
+@media screen and (max-width: 440px){
+  .repo {
+    padding: 0.7rem; 
+  
+    h3 {
+      max-width: 50%; 
+      font-size: 85%;
+      text-align: left;
+      // word-wrap: break-word;  
+    }
+  }
+}
+
+@media screen and (max-width: 310px){
+  .repo {
+    h3 {
+      word-wrap: break-word;  
+    }
+  }
+} 
